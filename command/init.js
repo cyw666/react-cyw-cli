@@ -42,6 +42,8 @@ module.exports = () => {
       }
       console.log(chalk.green('\n √ Generation completed!'))
       console.log(`\n cd ${projectName} && npm install \n`)
+      console.log(chalk.green('or'))
+      console.log(`\n cd ${projectName} && yarn \n`)
       process.exit()
     })
   })
