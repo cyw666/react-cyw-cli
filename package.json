@@ -1,0 +1,23 @@
+{
+  "name": "react-cyw-cli",
+  "version": "1.0.1",
+  "description": "A simple CLI for scaffolding React.js projects.",
+  "bin": {
+    "react-cyw-cli": "bin/react-cyw"
+  },
+  "keywords": [
+    "cli",
+    "react"
+  ],
+  "author": "cyw666",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.13.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}

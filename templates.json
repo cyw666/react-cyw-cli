@@ -1,0 +1,8 @@
+{
+  "tpl": {
+    "react-start": {
+      "url": "https://github.com/cyw666/react-start.git",
+      "branch": "master"
+    }
+  }
+}
