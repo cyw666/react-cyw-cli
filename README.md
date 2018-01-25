@@ -8,13 +8,22 @@ npm install react-cyw-cli -g
 ```
 or
 ```
-git clone https://github.com/jrainlau/react-cyw-cli.git
+git clone https://github.com/cyw666/react-cyw-cli.git
 
 cd react-cyw-cli && npm install
 
 npm link
 ```
 
+#simple Use
+ create a react project
+ ```
+   Usage: react-cyw-cli init
+   Template name: react-start
+   Project name: react-demo
+ ```
+ you will get a simple react project
+ 
 # Usage
 Open your terminal and type `react-cyw-cli` or `react-cyw-cli -h` , you'll see the help infomation below:
 ```
@@ -45,27 +54,26 @@ $ react-cyw-cli add
 ? Set the custom name of the template: my-first-template
 ? Owner/name of the template: jrainlau/react-cyw-cli
 ? Branch of the template: new
-┌───────────────────┬────────────────┬────────┐
-│ Template Name     │ Owner/Name     │ Branch │
-├───────────────────┼────────────────┼────────┤
-│ my-first-template │ jrainlau/react-cyw-cli │ new    │
-└───────────────────┴────────────────┴────────┘
+┌───────────────────┬──────────────────┬────────┐
+│ Template Name     │ Owner/Name       │ Branch │
+├───────────────────┼──────────────────┼────────┤
+│ my-first-template │ cyw666/react-demo│ new    │
+└───────────────────┴──────────────────┴────────┘
 ✔ New template has been added successfully!
 ```
-`react-cyw-cli` use [download-git-repo](https://github.com/flipxfx/download-git-repo) to down load git repos. After answering 3 questions, you'll add a new template to `react-cyw-cli`.
 
 ### list | l
 It shows you the templates list.
 ```
 $ react-cyw-cli list
 
-┌────────────────────┬────────────────┬────────┐
-│ Template Name      │ Owner/Name     │ Branch │
-├────────────────────┼────────────────┼────────┤
-│ my-first-template  │ jrainlau/react-cyw-cli │ new    │
-├────────────────────┼────────────────┼────────┤
-│ my-second-template │ jrainlau/motto │ master │
-└────────────────────┴────────────────┴────────┘
+┌────────────────────┬──────────────────┬────────┐
+│ Template Name      │ Owner/Name       │ Branch │
+├────────────────────┼──────────────────┼────────┤
+│ my-first-template  │ cyw666/react-demo│ new    │
+├────────────────────┼──────────────────┼────────┤
+│ my-second-template │ cyw666/motto     │ master │
+└────────────────────┴──────────────────┴────────┘
 ```
 
 ### init | i
@@ -89,11 +97,11 @@ To delete a template, you could use this command:
 $ react-cyw-cli delete
 
 ? Which template you want to delete? my-second-template
-┌───────────────────┬────────────────┬────────┐
-│ Template Name     │ Owner/Name     │ Branch │
-├───────────────────┼────────────────┼────────┤
-│ my-first-template │ jrainlau/react-cyw-cli │ new    │
-└───────────────────┴────────────────┴────────┘
+┌───────────────────┬───────────────────┬────────┐
+│ Template Name     │ Owner/Name        │ Branch │
+├───────────────────┼───────────────────┼────────┤
+│ my-first-template │ cyw666/react-demo │ new    │
+└───────────────────┴───────────────────┴────────┘
 ✔ Template has been deleted successfully
 ```
 
